@@ -1,0 +1,71 @@
+  .wrapper{
+	max-width:450px;
+	border-radius:30px;
+	margin:auto;
+	background:rgb(8, 71, 102);
+	box-sizing:border-box;
+	padding:40px;
+	color:white;
+	margin-top:30px;
+}
+h2{
+  text-align:center;
+  color:#fff;
+}
+h4, .head1{
+	padding-left: 470px;
+}
+input[type=alphanumerical],input[type=password],input[type=email],input[type=numerical]{
+	width:100%;
+	box-sizing:border-box;
+	padding:12px 5px;
+	background:#fff;
+	outline:none;
+	border:none;
+	border-bottom:1px dotted #fff;
+	color:rgba(81, 8, 129, 0.514);
+	border-radius:10px;
+	margin:5px;
+	font-weight:bold;
+}
+input[type=send]{
+	cursor: pointer;
+	width:100%;
+	box-sizing:border-box;
+	margin-top:30px;
+	padding:10px 130px;
+    outline:none;
+	border:none;
+	background:#60adde;
+	opacity:0.7;
+	border-radius:20px;
+	font-size:20px;
+	color:#fff;
+}
+input[type=send]:hover{
+	background:#003366;
+	opacity:0.9;
+}
+.cancelbtn:hover{
+	background:#003366;
+	opacity:0.9;
+	color: white;
+}
+.cancelbtn {
+	width: auto;
+	padding: 8px 15px;
+	background-color: #60adde;
+}
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+	span.psw {
+	   display: block;
+	   float: none;
+	}
+	.cancelbtn {
+	   width: 100%;
+	}
+  }
+.psd:hover{
+	color: white;
+}
